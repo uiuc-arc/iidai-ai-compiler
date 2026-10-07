@@ -279,6 +279,11 @@
       border: 1px solid var(--color-illini-orange);
     }
 
+    .badge-topic {
+      background: #e7eef8;
+      color: var(--color-illini-blue);
+    }
+
     .pub h4, .repo h4 {
       display: flex;
       align-items: flex-start;
@@ -449,70 +454,70 @@
       <h3 class="year-label">2026</h3>
       <ol class="pub-list">
         <li class="pub">
-          <div class="pub-meta"><span class="badge">OOPSLA 2026</span></div>
+          <div class="pub-meta"><span class="badge">OOPSLA 2026</span><span class="badge badge-topic">Compiler</span><span class="badge badge-topic">AI accelerator</span></div>
           <h4><span class="swatch swatch-mendis" role="img" aria-label="Charith Mendis"></span><a href="https://doi.org/10.1145/3839457">Automatically Generating ML Compiler Backends from Tensor Accelerator ISA Descriptions</a></h4>
           <p class="authors">Devansh Jain, Akash Pardeshi, Marco Frigo, Kaustubh Khulbe, Krut Patel, Saatvik Lochan, Jai Arora, and <span class="pi">Charith Mendis</span></p>
           <p class="blurb">Generates ML compiler backends from tensor-accelerator ISA descriptions.</p>
           <p class="links"><a href="https://arxiv.org/abs/2510.09932">arXiv</a></p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">MICRO 2026</span></div>
+          <div class="pub-meta"><span class="badge">MICRO 2026</span><span class="badge badge-topic">AI accelerator</span></div>
           <h4><span class="swatch swatch-huang" role="img" aria-label="Jian Huang"></span><a href="https://arxiv.org/abs/2607.16488">NeuScale: Auto-Scaling Heterogeneous Neural Processing Units for Energy and Cost-Efficient LLM Serving</a></h4>
           <p class="authors">Yuqi Xue, Jichuan Chang, and <span class="pi">Jian Huang</span></p>
           <p class="blurb">Allocates and auto-scales heterogeneous NPU chips for large-language-model serving.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">FCCM 2026</span></div>
+          <div class="pub-meta"><span class="badge">FCCM 2026</span><span class="badge badge-topic">AI accelerator</span><span class="badge badge-topic">Quantization</span></div>
           <h4><span class="swatch swatch-chen" role="img" aria-label="Deming Chen"></span><a href="https://arxiv.org/abs/2606.11357">TileFuse: Fused Mixed-Precision Kernels for Quantized LLM Inference on AMD XDNA2 NPUs</a></h4>
           <p class="authors">Wesley Pang, Gregory Hyegang Jun, Feiyang Liu, and <span class="pi">Deming Chen</span></p>
           <p class="blurb">Fused mixed-precision kernels for quantized language-model inference on AMD NPUs.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">OSDI 2026</span></div>
+          <div class="pub-meta"><span class="badge">OSDI 2026</span><span class="badge badge-topic">Tensor compiler</span></div>
           <h4><span class="swatch swatch-mendis" role="img" aria-label="Charith Mendis"></span><a href="https://www.usenix.org/conference/osdi26/presentation/hu-muyan">VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination</a></h4>
           <p class="authors">Muyan Hu, Ahan Gupta, Jiachen Yuan, Vima Gupta, Taeksang Kim, Xin Xu, Janardhan Kulkarni, Ofer Dekel, Vikram Adve, and <span class="pi">Charith Mendis</span></p>
           <p class="blurb">A tensor compiler that removes unnecessary data movement with virtual tensors.</p>
           <p class="links"><a href="https://arxiv.org/abs/2604.09558">arXiv</a></p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">PLDI 2026</span></div>
+          <div class="pub-meta"><span class="badge">PLDI 2026</span><span class="badge badge-topic">Tensor compiler</span></div>
           <h4><span class="swatch swatch-misailovic" role="img" aria-label="Sasa Misailovic"></span><a href="https://arxiv.org/abs/2510.08726">Neptune: Advanced ML Operator Fusion for Locality and Parallelism on GPUs</a></h4>
           <p class="authors">Yifan Zhao, Egan Johnson, Prasanth Chatarasi, Vikram Adve, and <span class="pi">Sasa Misailovic</span></p>
           <p class="blurb">A tensor compiler that fuses reduction-heavy operators, including attention, on GPUs.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">MLSys 2026</span></div>
+          <div class="pub-meta"><span class="badge">MLSys 2026</span><span class="badge badge-topic">Compiler</span></div>
           <h4><span class="swatch swatch-misailovic" role="img" aria-label="Sasa Misailovic"></span><a href="https://misailo.cs.illinois.edu/papers/approxmlir-mlsys26.pdf">ApproxMLIR: An Accuracy-Aware Compiler for Compound ML Systems</a></h4>
           <p class="authors">Hao Ren, Yi Mu, and <span class="pi">Sasa Misailovic</span></p>
           <p class="blurb">An MLIR compiler that applies accuracy-aware approximations across compound AI systems.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">ISSTA 2026</span></div>
+          <div class="pub-meta"><span class="badge">ISSTA 2026</span><span class="badge badge-topic">Quantization</span></div>
           <h4><span class="swatch swatch-misailovic" role="img" aria-label="Sasa Misailovic"></span><a href="https://doi.org/10.1145/3832266">ARQ: A Mixed-Precision Quantization Framework for Accurate and Certifiably Robust DNNs</a></h4>
           <p class="authors">Yuchen Yang, Yifan Zhao, Shubham Ugare, Gagandeep Singh, and <span class="pi">Sasa Misailovic</span></p>
           <p class="blurb">Searches mixed-precision bit-widths that keep accuracy and certified robustness.</p>
           <p class="links"><a href="https://arxiv.org/abs/2410.24214">arXiv</a></p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">arXiv 2026</span></div>
+          <div class="pub-meta"><span class="badge">arXiv 2026</span><span class="badge badge-topic">Quantization</span><span class="badge badge-topic">KV cache</span></div>
           <h4><span class="swatch swatch-misailovic" role="img" aria-label="Sasa Misailovic"></span><a href="https://arxiv.org/abs/2607.16184">PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization</a></h4>
           <p class="authors">Yuchen Yang, Yifan Zhao, Anisha Dasgupta, and <span class="pi">Sasa Misailovic</span></p>
           <p class="blurb">Quantizes mixture-of-experts weights at serving time to free GPU memory for the KV cache.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">ICLR 2026</span></div>
+          <div class="pub-meta"><span class="badge">ICLR 2026</span><span class="badge badge-topic">Compiler</span></div>
           <h4><span class="swatch swatch-zhang" role="img" aria-label="Minjia Zhang"></span><a href="https://openreview.net/forum?id=0fgsHvmBBI">AutoSP: Unlocking Long-Context LLM Training via Compiler-Based Sequence Parallelism</a></h4>
           <p class="authors">Ahan Gupta, Zhihao Wang, Neel Dani, Masahiro Tanaka, Olatunji Ruwase, and <span class="pi">Minjia Zhang</span></p>
           <p class="blurb">Compiler passes that turn standard training code into sequence-parallel execution.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">EuroSys 2026</span></div>
+          <div class="pub-meta"><span class="badge">EuroSys 2026</span><span class="badge badge-topic">Compiler</span></div>
           <h4><span class="swatch swatch-mendis" role="img" aria-label="Charith Mendis"></span><a href="https://doi.org/10.1145/3767295.3769364">SAS: Sparse Attention Synthesizer for Efficient Language Model Inference</a></h4>
           <p class="authors">Yuan Zhou, Shaojie Xiang, Lingfan Yu, Zhenyu Song, <span class="pi">Charith Mendis</span>, and Yida Wang</p>
           <p class="blurb">A domain-specific language and synthesizer for sparse-attention kernels.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">CGO 2026</span></div>
+          <div class="pub-meta"><span class="badge">CGO 2026</span><span class="badge badge-topic">Compiler</span></div>
           <h4><span class="swatch swatch-mendis" role="img" aria-label="Charith Mendis"></span><a href="https://doi.org/10.1109/CGO68049.2026.11395219">GRANII: Selection and Ordering of Primitives in Graph Neural Networks using Input Inspection</a></h4>
           <p class="authors">Damitha Lenadora, Vimarsh Sathia, Gerasimos Gerogiannis, Serif Yesil, Josep Torrellas, and <span class="pi">Charith Mendis</span></p>
           <p class="blurb">Chooses and orders GNN primitives from the input graph inside the compiler.</p>
@@ -520,6 +525,7 @@
         <li class="pub">
           <div class="pub-meta">
             <span class="badge">ISPASS 2026</span>
+            <span class="badge badge-topic">AI accelerator</span>
             <span class="badge badge-award">Artifact honorable mention</span>
           </div>
           <h4><span class="swatch swatch-mendis" role="img" aria-label="Charith Mendis"></span>MINISA: Minimal Instruction Set Architecture for Next-gen Reconfigurable Inference Accelerator</h4>
@@ -527,19 +533,19 @@
           <p class="blurb">A minimal ISA for reconfigurable tensor inference accelerators.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">COLM 2026</span></div>
+          <div class="pub-meta"><span class="badge">COLM 2026</span><span class="badge badge-topic">Compiler</span></div>
           <h4><span class="swatch swatch-mendis" role="img" aria-label="Charith Mendis"></span>Learning Reusable Program Transformations via LLM-Guided Rule Synthesis</h4>
           <p class="authors">Avaljot Singh, Dushyant Bharadwaj, Stefanos Baziotis, Kaushik Varadharajan, and <span class="pi">Charith Mendis</span></p>
           <p class="blurb">Synthesizes reusable compiler transformation rules with LLM guidance.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">COLM 2026</span></div>
+          <div class="pub-meta"><span class="badge">COLM 2026</span><span class="badge badge-topic">KV cache</span></div>
           <h4><span class="swatch swatch-zhang" role="img" aria-label="Minjia Zhang"></span>A Self-Pruning Transformer: Extreme KV-Cache Compression with Universal Attention</h4>
           <p class="authors">Davis Wertheimer, Haochen Shen, Ahan Gupta, Derrick Liu, Yu Chin Fabian Lim, Mudhakar Srivatsa, Raghu K. Ganti, <span class="pi">Minjia Zhang</span>, and Naigang Wang</p>
           <p class="blurb">Compresses the KV cache by learning a self-pruning transformer with universal attention.</p>
         </li>
         <li class="pub">
-          <div class="pub-meta"><span class="badge">EMNLP 2026</span></div>
+          <div class="pub-meta"><span class="badge">EMNLP 2026</span><span class="badge badge-topic">Quantization</span></div>
           <h4><span class="swatch swatch-zhang" role="img" aria-label="Minjia Zhang"></span><a href="https://arxiv.org/abs/2606.25519">Quantization Inflates Reasoning: Token Inflation as a Hidden Cost of Low-Bit Reasoning Models</a></h4>
           <p class="authors">Xinyu Lian, Walid Krichene, Beichen Huang, Masahiro Tanaka, Olatunji Ruwase, Li Zhang, and <span class="pi">Minjia Zhang</span></p>
           <p class="blurb">Measures how low-bit post-training quantization lengthens chains of thought in reasoning models.</p>
